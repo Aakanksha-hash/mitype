@@ -43,7 +43,7 @@ jobs:
     - name: Commit docs
       run: |
         git clone https://github.com/Aakanksha-hash/mitype.git --branch gh-pages --single-branch gh-pages
-        cp -r docs/build/html/* gh-pages/
+        cp -r build/sphinx/html/* gh-pages/
         cd gh-pages
         git config --local user.email ${{ secrets.EMAIL }}
         git config --local user.name "Aakanksha"

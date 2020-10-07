@@ -13,7 +13,7 @@ import mitype.keycheck
 
 class App:
     """Class for enclosing all methods required to run Mitype."""
-
+    # Just added this innocent comment
     def __init__(self):
         """Initialize the application class."""
         # Start the parser
